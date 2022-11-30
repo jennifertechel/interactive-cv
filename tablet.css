@@ -1,0 +1,13 @@
+/* Tablet */
+@media (min-width: 500px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .navbar-toggler {
+        font-size: 2rem;
+    }
+    .about h1 {
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+  }

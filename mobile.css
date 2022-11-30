@@ -1,0 +1,48 @@
+@font-face {
+    font-family: peace-sans;
+    src: url(/fonts/Peace\ Sans.otf);
+}
+
+body {
+    font-family: 'peace-sans';
+    color: white;
+}
+
+.navbar {
+    height: 4rem;
+    background-color: #6F5C5C;
+    border: none;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Open Sans';
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 4rem);
+    background-color: #6F5C5C;
+}
+
+.about h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+

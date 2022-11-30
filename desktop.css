@@ -1,0 +1,11 @@
+@media (min-width: 1000px) {
+    .navbar {
+        padding: 0 2rem;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+  }
