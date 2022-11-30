@@ -3,10 +3,12 @@
     .navbar-brand {
         font-size: 2rem;
     }
+
     .navbar-toggler {
         font-size: 2rem;
     }
-    .about h1 {
+    
+    .hero h1 {
         font-size: 3rem;
         margin-left: 2rem;
     }
