@@ -14,11 +14,8 @@
     <!-- Javascript -->
     <script src="main.js"></script>
     <!-- FontAwesome --> 
-    <script src="https://kit.fontawesome.com/9716442c1c.js" crossorigin="anonymous"></script>
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9716442c1c.js" crossorigin="anonymous"></script>    
+   
 </head>
 <body>
 
@@ -26,7 +23,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Jennifer Techel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -39,7 +36,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
                 </ul>
+                
             </div>
         </div>
     </nav>
@@ -49,29 +57,49 @@
             Front End student located in Gothenburg. 
             <br>
             <br>
-            Currently studying at Medieinstitutet.
+            Currently studying at Medieinstitutet. 
         </h1>
     </div>
 
     <div class="container-fluid about" id="about">
-        <h2>Get to know me.</h2>
+        <!--<h2>Get to know me.</h2>-->
+        <p>Get to know me.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum sunt, mollitia nobis laudantium tempore aut aspernatur rerum nulla quis dolor quod beatae expedita, suscipit rem qui? In, eius iure.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ab repellendus vitae? Doloremque porro doloribus minus animi quod dolorem debitis quibusdam deleniti neque repudiandae. Totam dolorum rerum sit accusamus saepe!</p>
     </div>
 
     <div class="container-fluid portfolio" id="portfolio">
         <h2>Portfolio.</h2>
+        <div class="project">
+            <h5>Bente Books</h5>
+            <p>HTML / CSS / JS</p>
+            <p>A hobby project of an audio book website.</p>
+            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="project">
+            <h5>Sleepyhead Chaos</h5>
+            <p>JavaScript</p>
+            <p>An interactive textbased adventure created with javascript.</p>
+            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="project">
+            <h5>Parema Bygg</h5>
+            <p>HTML / CSS</p>
+            <p>A modernization of a current website using HTML and CSS</p>
+            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
     </div>
 
     <div class="container-fluid contact" id="contact">
         <h2>Get in touch.</h2>
+        <p>jennifertechel@hotmail.com</p>
+        <p>+467-62 00 90 10</p>
 
-        <div class="container" style="text-align: center;">
+        <div class="container">
             <a href="">GitHub</a>
             <a href="">LinkedIn</a>
         </div>
-        
     </div>
-      
+
 </body>
 </html>

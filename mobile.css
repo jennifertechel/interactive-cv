@@ -3,13 +3,18 @@
     src: url(/fonts/Peace\ Sans.otf);
 }
 
+@font-face {
+    font-family: avant-garde;
+    src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.otf);
+}
+
 body {
-    font-family: 'Open Sans';
+    font-family: 'avant-garde';
     color: white;
     background-color: #6F5C5C;
 }
 
-h1, h2 {
+h1, h2, h5 {
     text-transform: uppercase;
     font-family: 'peace-sans';
 }
@@ -19,6 +24,7 @@ h1, h2 {
     background-color: #6F5C5C;
     border: none;
     color: white;
+    
 }
 
 .navbar-brand {
@@ -29,14 +35,14 @@ h1, h2 {
 
 .nav-link {
     color: white;
-    font-family: 'Open Sans';
+    font-family: 'avant-garde';
 }
 
 .navbar-toggler {
     border: none;
 }
  
-.navbar-toggler-icon {
+.navbar-toggler i {
     color: white;
 }
 
@@ -55,15 +61,27 @@ h1, h2 {
     max-width: 50rem;
 }
 
-.about, .portfolio, .contact {
-    padding: 1rem 5rem;
-}
-
 .contact .container {
     text-align: center;
 }
 
 .contact .container a {
+    color: white;
+    padding: 0 4rem;
+}
+
+.portfolio {
+    padding-top: 6rem;
+}
+
+.portfolio .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.portfolio .project a {
     color: white;
 }
 
