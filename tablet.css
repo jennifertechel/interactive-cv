@@ -9,7 +9,11 @@
     }
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-left: 2rem;
+    }
+
+    .contact .container a {
+        padding: 0 4rem;
     }
   } 

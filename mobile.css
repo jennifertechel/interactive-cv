@@ -8,10 +8,14 @@
     src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.otf);
 }
 
+.show {
+    display: block;
+}
+
 body {
     font-family: 'avant-garde';
     color: white;
-    background-color: #6F5C5C;
+    background-color: #46443E;
 }
 
 h1, h2, h5 {
@@ -21,10 +25,9 @@ h1, h2, h5 {
 
 .navbar {
     height: 4rem;
-    background-color: #6F5C5C;
+    background-color: #46443E;
     border: none;
-    color: white;
-    
+    color: white;   
 }
 
 .navbar-brand {
@@ -36,6 +39,16 @@ h1, h2, h5 {
 .nav-link {
     color: white;
     font-family: 'avant-garde';
+    transition: all 0.5s ease-in-out;
+}
+
+.scale {
+    transition: all 0.5s ease-in-out;
+}
+
+.scale:hover {
+    color: white;
+    transform: scale(1.5);
 }
 
 .navbar-toggler {
@@ -46,13 +59,17 @@ h1, h2, h5 {
     color: white;
 }
 
+.mobile-menu {
+    text-align: center;
+    background-color: #6F5C5C;
+    display: none;
+}
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 4rem);
-    background-color: #6F5C5C;
-    color: white;
 }
 
 .hero h1 {
@@ -61,17 +78,12 @@ h1, h2, h5 {
     max-width: 50rem;
 }
 
-.contact .container {
-    text-align: center;
-}
-
-.contact .container a {
-    color: white;
-    padding: 0 4rem;
-}
-
 .portfolio {
     padding-top: 6rem;
+}
+
+.portfolio h2 {
+    padding-bottom: 3rem;
 }
 
 .portfolio .project {
@@ -84,6 +96,21 @@ h1, h2, h5 {
 .portfolio .project a {
     color: white;
 }
+
+.contact {
+    padding-bottom: 2rem;
+}
+
+.contact .container {
+    text-align: center;
+}
+
+.contact .container a {
+    color: white;
+    padding: 0 2rem;
+}
+
+
 
 
 /*
