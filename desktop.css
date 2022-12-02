@@ -1,14 +1,24 @@
+/* Desktop */
 @media (min-width: 1000px) {
     .navbar {
         padding: 0 2rem;
     }
+
     .navbar-collapse {
         justify-content: flex-end;
     }
+
     .navbar-brand {
         font-size: 1.5rem;
     }
-    .about, .portfolio, .contact {
-        padding: 1rem 10rem;
+
+    .hero h1 {
+        font-size: 4rem;
+        padding-left: 4rem;
     }
+
+    .about, .portfolio, .contact {
+        padding: 4rem 10rem;
+    }
+  
   } 

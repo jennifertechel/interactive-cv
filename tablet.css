@@ -8,9 +8,13 @@
         font-size: 2rem;
     }
 
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
     .hero h1 {
-        font-size: 2.5rem;
-        margin-left: 2rem;
+        font-size: 3rem;
+        padding-left: 1rem;
     }
 
     .contact .container a {

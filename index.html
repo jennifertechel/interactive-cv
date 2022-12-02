@@ -19,7 +19,8 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Jennifer Techel</a>
             <button id="open-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,23 +53,22 @@
         </div>
     </nav>
     
-    <div class="mobile-menu container-fluid show" id="mobile-menu">
-        <button>
-            <i id="close-menu" class="fab fa-linkedin-in"></i>
-        </button>
+    <!-- Nav for mobile units -->
+    <div class="mobile-menu container-fluid hide" id="mobile-menu">
         <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#">Active</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
     </div>
-
+    
+    <!-- Hero section -->
     <div class="container-fluid hero">
         <h1>
             Front End student located in Gothenburg. 
@@ -78,43 +78,51 @@
         </h1>
     </div>
 
+    <!-- About section -->
     <div class="container-fluid about" id="about">
-        <!--<h2>Get to know me.</h2>-->
         <p>Get to know me.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum sunt, mollitia nobis laudantium tempore aut aspernatur rerum nulla quis dolor quod beatae expedita, suscipit rem qui? In, eius iure.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ab repellendus vitae? Doloremque porro doloribus minus animi quod dolorem debitis quibusdam deleniti neque repudiandae. Totam dolorum rerum sit accusamus saepe!</p>
+        <p>
+            My name is Jennifer, I am 24 years old and live in Gothenburg with my three year old dog Billie. 
+            I found my love of coding about three years ago and have been self-taught until I started studying Front End Developer in the fall of 2022.</p>
+        <p>
+            Before  I'm finished with my studies in May 2024. Before then I'm looking for internship for September 2023. 
+            If you have an opening or know someone who does, feel free to <a href="#contact" class="scale">contact me.</a>
+        </p>
+       
     </div>
 
+    <!-- Portfolio section -->
     <div class="container-fluid portfolio" id="portfolio">
         <h2>Portfolio.</h2>
-        <div class="project">
-            <h5>Bente Books</h5>
-            <p>HTML / CSS / JS</p>
-            <p>A hobby project of an audio book website.</p>
-            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
         <div class="project">
             <h5>Sleepyhead Chaos</h5>
             <p>JavaScript</p>
             <p>An interactive textbased adventure created with javascript.</p>
-            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+            <a href="https://jennifertechel.github.io/sleepyhead-chaos/" class="scale">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
         <div class="project">
             <h5>Parema Bygg</h5>
             <p>HTML / CSS</p>
             <p>A modernization of a current website using HTML and CSS</p>
-            <a href="">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+            <a href="https://github.com/jennifertechel" class="scale">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="project">
+            <h5>Bente Books</h5>
+            <p>HTML / CSS / JS</p>
+            <p>A hobby project of an audio book website.</p>
+            <a href="https://github.com/jennifertechel" class="scale">Check it out <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
     </div>
 
+    <!-- Contact section -->
     <div class="container-fluid contact" id="contact">
         <h2>Get in touch.</h2>
         <p>jennifertechel@hotmail.com</p>
         <p>+467-62 00 90 10</p>
 
         <div class="container">
-            <a href="">GitHub</a>
-            <a href="">LinkedIn</a>
+            <a href="" class="scale">GitHub</a>
+            <a href="" class="scale">LinkedIn</a>
         </div>
     </div>
 

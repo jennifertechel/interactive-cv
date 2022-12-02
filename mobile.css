@@ -8,8 +8,8 @@
     src: url(/fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.otf);
 }
 
-.show {
-    display: block;
+.hide {
+    display: none;
 }
 
 body {
@@ -21,6 +21,11 @@ body {
 h1, h2, h5 {
     text-transform: uppercase;
     font-family: 'peace-sans';
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .navbar {
@@ -61,36 +66,43 @@ h1, h2, h5 {
 
 .mobile-menu {
     text-align: center;
-    background-color: #6F5C5C;
-    display: none;
+    background-color: #46443E;
+    margin-top: 4rem;
+    position: fixed;
+    padding: 4rem 0;
 }
 
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: calc(100vh - 4rem);
+    justify-content: start;
+    height: 100vh;
 }
 
 .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    max-width: 50rem;
+    max-width: 70rem;
 }
 
-.portfolio {
-    padding-top: 6rem;
+.about, .portfolio, .contact {
+    padding: 4rem 1rem;
+}
+
+.about a {
+    color: white;
 }
 
 .portfolio h2 {
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .portfolio .project {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .portfolio .project a {
@@ -109,48 +121,3 @@ h1, h2, h5 {
     color: white;
     padding: 0 2rem;
 }
-
-
-
-
-/*
-.portfolio {
-    position: relative;
-    background: #6F5C5C;
-    box-sizing: border-box;
-    height: 50rem;
-    width: 100vw;
-    outline: 0;
-    overflow: hidden;
-}
-
-.portfolio::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .portfolio::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    height: 200%;
-    width: 200%;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 40%;
-    animation: spin 6s linear;
-}
-
-@keyframes spin {
-    0% {
-      transform: translateY(0) rotate(0deg);
-    }
-    100% {
-      transform: translateY(100%) rotate(360deg);
-    }
-  }*/
