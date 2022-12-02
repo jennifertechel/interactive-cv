@@ -4,4 +4,4 @@ Ett projekt där ett interaktivt CV har skapats med hjälp av HTML, CSS och Java
 
 Jennifer Techel 
 
-(Se demo här!)[]
+[Se demo här!](https://jennifertechel.github.io/interactive-cv/) 
